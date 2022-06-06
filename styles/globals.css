@@ -9,5 +9,19 @@
 }
 
 h1#blackhan {
-    font-family: 'Black Han Sans', sans-serif;
+    font-family: "Black Han Sans", sans-serif;
+}
+
+/* .navContainer {
+    transition: all;
+    animation-duration: 500ms;
+    transition-timing-function: cubic-bezier(0.87, 0, 0.13, 1);
+} */
+@media screen and (max-width: 1024px) {
+    .navContainer[data-visible="false"] {
+        transform: translateX(100%);
+    }
+    .navContainer[data-visible="true"] {
+        transform: translateX(0%);
+    }
 }
