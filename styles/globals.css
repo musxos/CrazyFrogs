@@ -5,9 +5,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Inter&display=swap");
 
 * {
-    /* font-family: "Inter", sans-serif; */
-    font-family: "Black Han Sans", sans-serif;
+    font-family: "Inter", sans-serif;
 }
 
-/* .blackhan {
-} */
+h1#blackhan {
+    font-family: 'Black Han Sans', sans-serif;
+}
