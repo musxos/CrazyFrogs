@@ -1,4 +1,3 @@
-
 const Hero = () => (
     <div className="w-auto mx-6 min-h-screen flex flex-col justify-center text-white lg:mx-[80px]">
         <div className="flex flex-col gap-6 h-[37.5rem] my-auto w-full align-middle lg:flex-row-reverse lg:align-middle lg:h-min lg:max-w-5xl lg:mx-auto lg:justify-between">
@@ -40,11 +39,11 @@ const Hero = () => (
                             className="h-12 lg:block hidden"
                         />
                         <div className="rounded-full py-4 w-max text-center text-white text-md px-6 flex gap-4 lg:py-2 border-[1px] border-white">
-                            <img src="/opensea.svg" />
+                            <img src="/opensea.svg" className="text-black" />
                             <p className="w-max my-auto">Opensea</p>
                         </div>
                         <div className="rounded-full py-4 w-max text-center text-white text-md px-6 flex gap-4 lg:py-2 border-[1px] border-white">
-                            <img src="/tofu.svg" />
+                            <img src="/tofu.svg" className="text-black" />
                             <p className="w-max my-auto">Tofu.nft</p>
                         </div>
                     </div>

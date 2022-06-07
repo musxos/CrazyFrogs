@@ -4,10 +4,6 @@ const Navbar = () => {
     const [visible, setVisible] = useState(false)
     return (
         <div className="lg:relative lg:w-full lg:mx-auto">
-            <div
-                className="z-20 rounded-full absolute top-4 right-4  h-12 w-12 shadow-md shadow-black lg:hidden"
-                onClick={() => setVisible(!visible)}
-            ></div>
             <img src="/logo.png" className="absolute w-36 lg:hidden left-4" />
             <div
                 className="z-10 absolute right-0 h-full w-[300px] lg:w-full lg:h-20 bg-bg navContainer transition-all duration-500 ease-[cubic-bezier(0.87,0,0.13,1)] lg:transition-none"
@@ -35,12 +31,25 @@ const Navbar = () => {
                         />
                     </div>
                     <div className="absolute bottom-8 left-8 flex flex-row gap-4 lg:top-4 lg:right-4 lg:left-auto lg:relative">
-                        <div className="rounded-full h-12 w-12 shadow-md shadow-black"></div>
-                        <div className="rounded-full h-12 w-12 shadow-md shadow-black"></div>
-                        <div className="rounded-full h-12 w-12 shadow-md shadow-black"></div>
+                        <div className="rounded-full h-12 w-12 shadow-md shadow-black grid place-items-center">
+                            <img src="/twitter.svg" className="w-4" />
+                        </div>
+                        <div className="rounded-full h-12 w-12 shadow-md shadow-black grid place-items-center">
+                            <img src="/discord.svg" className="w-4" />
+                        </div>
+                        <div className="rounded-full h-12 w-12 shadow-md shadow-black grid place-items-center">
+                            <img src="/linktree.svg" className="w-4" />
+                        </div>
                     </div>
                     <div className="w-[80px] hidden lg:block invisible"></div>
                 </div>
+            </div>
+            <div
+                className="z-20 rounded-full absolute top-4 right-4  h-12 w-12 shadow-md shadow-black lg:hidden grid place-items-center navButton"
+                onClick={() => setVisible(!visible)}
+            >
+                <img src="/burger.svg" className="w-4 nav:close" />
+                <img src="/cross.svg" className="w-4 nav:open" />
             </div>
         </div>
     )

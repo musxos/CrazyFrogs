@@ -21,7 +21,16 @@ h1#blackhan {
     .navContainer[data-visible="false"] {
         transform: translateX(100%);
     }
+
+    div.navContainer[data-visible="false"] ~ div.navButton > img.nav\:open {
+        display:  none;
+    }
+
     .navContainer[data-visible="true"] {
         transform: translateX(0%);
     }
+    div.navContainer[data-visible="true"] ~ div.navButton > img.nav\:close {
+        display:  none;
+    }
+
 }
