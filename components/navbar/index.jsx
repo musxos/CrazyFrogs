@@ -1,4 +1,5 @@
 import { useState } from "react"
+import Link from "next/link"
 
 const Navbar = () => {
     const [visible, setVisible] = useState(false)
@@ -13,46 +14,46 @@ const Navbar = () => {
                     <div className="w-[80px] hidden lg:block invisible"></div>
                     <img src="/logo.png" className="w-56 hidden lg:block" />
                     <div className="flex flex-col gap-12 pt-28 pl-8 lg:flex-row lg:py-4 lg:my-auto lg:mx-auto lg:h-full">
-                        <a href="/" className="lg:my-auto">
+                        <Link href="/" className="lg:my-auto">
                             <img
                                 src="/home-nav.svg"
                                 className="h-4 self-start lg:h-2 lg:my-auto cursor-pointer"
                             />
-                        </a>
-                        <a href="/" className="lg:my-auto">
+                        </Link>
+                        <Link href="/" className="lg:my-auto">
                             <img
                                 src="/license-nav.svg"
                                 className="h-4 self-start lg:h-2 lg:my-auto cursor-pointer"
                             />
-                        </a>
-                        <a href="/" className="lg:my-auto">
+                        </Link>
+                        <Link href="/" className="lg:my-auto">
                             <img
                                 src="/roadmap-nav.svg"
                                 className="h-4 self-start lg:h-2 lg:my-auto cursor-pointer"
                             />
-                        </a>
-                        <a href="/" className="lg:my-auto">
+                        </Link>
+                        <Link href="/" className="lg:my-auto">
                             <img
                                 src="/mint-nav.svg"
                                 className="h-4 self-start lg:hidden cursor-pointer"
                             />
-                        </a>
+                        </Link>
                     </div>
                     <div className="absolute bottom-8 left-8 flex flex-row gap-4 lg:top-4 lg:right-4 lg:left-auto lg:relative">
                         <a
-                            href="/"
+                            href="https://twitter.com"
                             className="rounded-full h-12 w-12 shadow-md shadow-black grid place-items-center"
                         >
                             <img src="/twitter.svg" className="w-4" />
                         </a>
                         <a
-                            href="/"
+                            href="https://discord.com"
                             className="rounded-full h-12 w-12 shadow-md shadow-black grid place-items-center"
                         >
                             <img src="/discord.svg" className="w-4" />
                         </a>
                         <a
-                            href="/"
+                            href="https://linktree.com"
                             className="rounded-full h-12 w-12 shadow-md shadow-black grid place-items-center"
                         >
                             <img src="/linktree.svg" className="w-4" />
