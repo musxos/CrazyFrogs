@@ -41,7 +41,7 @@ const Navbar = () => {
                     </div>
                     <div className="absolute bottom-8 left-8 flex flex-row gap-4 lg:top-4 lg:right-4 lg:left-auto lg:relative">
                         <a
-                            href="https://twitter.com"
+                            href="https://twitter.com/CrazyFrogs_io"
                             className="rounded-full h-12 w-12 shadow-md shadow-black grid place-items-center"
                         >
                             <img src="/twitter.svg" className="w-4" />
@@ -53,7 +53,7 @@ const Navbar = () => {
                             <img src="/discord.svg" className="w-4" />
                         </a>
                         <a
-                            href="https://linktree.com"
+                            href="https://linktr.ee/crazyfrogs"
                             className="rounded-full h-12 w-12 shadow-md shadow-black grid place-items-center"
                         >
                             <img src="/linktree.svg" className="w-4" />
