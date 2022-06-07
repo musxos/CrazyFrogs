@@ -37,7 +37,7 @@ const RoadmapElement = () => (
             <h1 className="timeline-title"> PHASE 2</h1>
             <img src="/utilities.svg" className="h-6 self-start" />
             <p className="text-xs leading-[16px] opacity-75">
-                We're developing long-term utilities for Crazy Frogs NFT holders
+                We&aposre developing long-term utilities for Crazy Frogs NFT holders
                 by: Processing the cc0 legal agreement for the Crazy Frogs NFT
                 collection, and allowing holders to commercialize their NFTs at
                 will. Periodically granting free airdrop and mints to 100 rare
