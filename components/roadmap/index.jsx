@@ -22,7 +22,7 @@ const RoadmapElement = () => (
         <p className="text-center my-4 opacity-75">
             This roadmap signifies our goals and ambitions for crazy frogs
         </p>
-        <div className="flex flex-col gap-4 p-5 border-l-2 border-[#2AF6FF]">
+        <div className="flex flex-col gap-4 p-8 border-l-4 border-[#2AF6FF]">
             <h1 className="timeline-title"> PHASE 1</h1>
             <img src="/development.svg" className="h-6 self-start" />
             <p className="text-xs leading-[16px] opacity-75">
@@ -33,7 +33,7 @@ const RoadmapElement = () => (
                 studios.
             </p>
         </div>
-        <div className="flex flex-col gap-4 p-5 border-l-2 border-[#2AF6FF]">
+        <div className="flex flex-col gap-4 p-8 border-l-4 border-[#2AF6FF]">
             <h1 className="timeline-title"> PHASE 2</h1>
             <img src="/utilities.svg" className="h-6 self-start" />
             <p className="text-xs leading-[16px] opacity-75">
@@ -46,7 +46,7 @@ const RoadmapElement = () => (
                 and award WLs to the first 1000 members.
             </p>
         </div>
-        <div className="flex flex-col gap-4 p-5 border-l-2 border-[#2AF6FF]">
+        <div className="flex flex-col gap-4 p-8 border-l-4 border-[#2AF6FF]">
             <h1 className="timeline-title"> PHASE 3</h1>
             <img src="/future-perks.svg" className="h-6 self-start" />
             <p className="text-xs leading-[16px] opacity-75">
@@ -66,7 +66,7 @@ const RoadmapElement = () => (
                 including Crazy frogs.
             </p>
         </div>
-        <div className="flex flex-col gap-4 p-5 border-l-2 border-[#2AF6FF]">
+        <div className="flex flex-col gap-4 p-8 border-l-4 border-[#2AF6FF]">
             <h1 className="timeline-title"> PHASE 4</h1>
             <img src="/tba.svg" className="h-6 self-start" />
             <p className="text-xs leading-[16px] opacity-75">Stay tuned for latest updates!</p>

@@ -4,7 +4,7 @@
 
 @layer components {
     .timeline-title{
-      @apply w-full text-left relative opacity-75 before:opacity-100 before:absolute before:left-[-27px] before:top-[6px] before:border-2 before:w-3 before:h-3 before:rounded-full before:bg-[#2AF6FF] before:border-[#2AF6FF]
+      @apply w-full text-left relative text-[#ccc] before:opacity-100 before:absolute before:left-[-44px] before:top-[1px] before:border-2 before:w-5 before:h-5 before:rounded-full before:bg-[#2AF6FF] before:border-[#2AF6FF] before:shadow-glow;
     }
   }
 

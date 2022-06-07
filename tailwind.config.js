@@ -8,6 +8,9 @@ module.exports = {
             colors: {
                 bg: "#252525",
             },
+            boxShadow: {
+                glow: "0px 0px 40px 2px #2AF6FF",
+            },
         },
     },
     plugins: [],
