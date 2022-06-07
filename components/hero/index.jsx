@@ -54,7 +54,7 @@ const Hero = () => (
                 </div>
             </div>
         </div>
-        <div className="w-full flex flex-row justify-center gap-4 py-4 mt-12">
+        <div className="w-full flex flex-row justify-center gap-4 py-4 mt-12 lg:mt-0">
             <img src="/badge.svg" />
             <p className="text-white">NO RIGHTS RESERVED</p>
         </div>
