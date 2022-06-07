@@ -1,6 +1,7 @@
 import Footer from "../components/footer"
 import Hero from "../components/hero/index"
 import Navbar from "../components/navbar"
+import Rainbow from "../components/rainbow"
 import RoadmapElement from "../components/roadmap"
 
 export default function Roadmap() {
@@ -10,6 +11,7 @@ export default function Roadmap() {
                 <Navbar />
                 <RoadmapElement />
                 <Footer />
+                <Rainbow className="h-72 absolute left-0 top-[50vh] hidden lg:block" />
             </div>
         </div>
     )

@@ -39,7 +39,7 @@ const Hero = () => (
                     <div className="w-full flex justify-start gap-4 lg:gap-4">
                         <img
                             src="/hero-button-large.svg"
-                            className="h-12 lg:block hidden"
+                            className="h-12 lg:block hidden z-10"
                         />
                         <div className="rounded-full py-3 w-max text-center text-white text-md px-6 flex gap-4 lg:py-2 border-[1px] border-white">
                             <img src="/opensea.svg" className="text-black" />

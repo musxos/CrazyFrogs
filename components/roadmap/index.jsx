@@ -7,11 +7,11 @@ const RoadmapElement = () => (
             />
             <img
                 src="/frog2.png"
-                className="h-[150px] lg:h-[225px] absolute left-[60px] top-2"
+                className="h-[150px] lg:h-[225px] absolute left-[60px] lg:left-[150px] top-2"
             />
             <img
                 src="/frog3.png"
-                className="h-[150px] lg:h-[225px] absolute right-[60px] top-2"
+                className="h-[150px] lg:h-[225px] absolute right-[60px] lg:right-[150px] top-2"
             />
             <img
                 src="/frog4.png"
