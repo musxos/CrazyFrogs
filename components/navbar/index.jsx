@@ -26,7 +26,7 @@ const Navbar = () => {
                                 className="h-4 self-start lg:h-2 lg:my-auto cursor-pointer"
                             />
                         </Link>
-                        <Link href="/" className="lg:my-auto">
+                        <Link href="/roadmap" className="lg:my-auto">
                             <img
                                 src="/roadmap-nav.svg"
                                 className="h-4 self-start lg:h-2 lg:my-auto cursor-pointer"
@@ -63,7 +63,7 @@ const Navbar = () => {
                 </div>
             </div>
             <div
-                className="z-20 rounded-full fixed top-2 right-2  h-12 w-12 shadow-md shadow-black lg:hidden grid place-items-center navButton"
+                className="z-20 rounded-full fixed top-2 right-2  h-12 w-12 shadow-md shadow-black lg:hidden grid place-items-center navButton bg-bg"
                 onClick={() => setVisible(!visible)}
             >
                 <img src="/burger.svg" className="w-4 nav:close" />

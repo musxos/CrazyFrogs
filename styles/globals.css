@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer components {
+    .timeline-title{
+      @apply w-full text-left relative opacity-75 before:opacity-100 before:absolute before:left-[-27px] before:top-[6px] before:border-2 before:w-3 before:h-3 before:rounded-full before:bg-[#2AF6FF] before:border-[#2AF6FF]
+    }
+  }
+
 @import url("https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Inter&display=swap");
 
 * {

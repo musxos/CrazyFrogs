@@ -22,7 +22,7 @@ const Hero = () => (
                     src="/hero-text-large.svg"
                     className="hidden h-24 lg:block self-start"
                 />
-                <p className="max-w-[24rem] text-center mx-auto text-xs lg:text-left lg:max-w-[28rem] lg:mx-0 opacity-50 lg:leading-6 leading-5">
+                <p className="max-w-[24rem] text-center mx-auto text-xs lg:text-left lg:max-w-[28rem] lg:mx-0 opacity-75 lg:leading-[34px] leading-5">
                     A group of 10000 omnipresent frogs, living and thriving on
                     the different networks of the Blockchain. Waiting to be
                     possessed by one as crazy as them; someone crazy enough to
