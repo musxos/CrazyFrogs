@@ -4,8 +4,8 @@ import Navbar from "../components/navbar"
 
 export default function Home() {
     return (
-        <div className="bg-black h-screen w-screen">
-            <div className="h-full w-full bg-bg">
+        <div className="bg-black h-screen w-auto">
+            <div className="h-full min-w-screen bg-bg overflow-hidden relative">
                 <Navbar />
                 <Hero />
                 <Footer />
