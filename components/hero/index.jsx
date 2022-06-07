@@ -1,7 +1,6 @@
 const Hero = () => (
     <div className="w-auto mx-6 min-h-screen flex flex-col justify-center text-white lg:mx-[80px]">
-    <div className="w-full min-h-20 mt-12 invisible"></div>
-        <div className="flex flex-col gap-6 h-[37.5rem] my-auto w-full align-middle lg:flex-row-reverse lg:align-middle lg:h-min lg:max-w-5xl lg:mx-auto lg:justify-between ">
+        <div className="flex flex-col gap-6 h-[37.5rem] mt-[75px] w-full align-middle lg:flex-row-reverse lg:align-middle lg:h-min lg:max-w-5xl lg:mx-auto lg:justify-between ">
             <div className="mx-auto w-64 h-60 lg:h-96 lg:w-96 relative lg:mx-0">
                 <img
                     src="hero1.png"
