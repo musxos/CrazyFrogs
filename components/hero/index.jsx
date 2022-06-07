@@ -28,21 +28,21 @@ const Hero = () => (
                     believe, like the princess who kissed the frog, that one
                     frog could be the gateway to a whole new world!
                 </p>
-                <img src="/hero-button.svg" className="h-16 lg:hidden" />
                 <div className="w-auto mx-auto lg:mx-0 lg:w-auto ">
+                    <img src="/hero-button.svg" className="h-16 lg:hidden mb-8" />
                     <p className="text-left w-full text-sm mb-2 lg:text-center opacity-50">
                         AVAILABLE AT
                     </p>
-                    <div className="w-full flex justify-between gap-8 lg:gap-4">
+                    <div className="w-full flex justify-start gap-4 lg:gap-4">
                         <img
                             src="/hero-button-large.svg"
                             className="h-12 lg:block hidden"
                         />
-                        <div className="rounded-full py-4 w-max text-center text-white text-md px-5 flex gap-4 lg:py-2 border-[1px] border-white">
+                        <div className="rounded-full py-3 w-max text-center text-white text-md px-6 flex gap-4 lg:py-2 border-[1px] border-white">
                             <img src="/opensea.svg" className="text-black" />
                             <p className="w-max my-auto">Opensea</p>
                         </div>
-                        <div className="rounded-full py-4 w-max text-center text-white text-md px-5 flex gap-4 lg:py-2 border-[1px] border-white">
+                        <div className="rounded-full py-3 w-max text-center text-white text-md px-6 flex gap-4 lg:py-2 border-[1px] border-white">
                             <img src="/tofu.svg" className="text-black" />
                             <p className="w-max my-auto">Tofu.nft</p>
                         </div>
