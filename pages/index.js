@@ -5,10 +5,10 @@ import Navbar from "../components/navbar"
 export default function Home() {
     return (
         <div className="bg-black h-screen w-auto">
-            <div className="h-full min-w-screen bg-bg overflow-hidden relative">
+            <div className="h-full min-w-screen bg-bg overflow-x-hidden flex flex-col justify-between">
                 <Navbar />
                 <Hero />
-                <Footer />
+                {/* <Footer /> */}
             </div>
         </div>
     )

@@ -1,5 +1,6 @@
 const Hero = () => (
     <div className="w-auto mx-6 min-h-screen flex flex-col justify-center text-white lg:mx-[80px]">
+    <div className="w-full min-h-20 mt-12 invisible"></div>
         <div className="flex flex-col gap-6 h-[37.5rem] my-auto w-full align-middle lg:flex-row-reverse lg:align-middle lg:h-min lg:max-w-5xl lg:mx-auto lg:justify-between ">
             <div className="mx-auto w-64 h-60 lg:h-96 lg:w-96 relative lg:mx-0">
                 <img
@@ -29,7 +30,10 @@ const Hero = () => (
                     frog could be the gateway to a whole new world!
                 </p>
                 <div className="w-auto mx-auto lg:mx-0 lg:w-auto ">
-                    <img src="/hero-button.svg" className="h-16 lg:hidden mb-8" />
+                    <img
+                        src="/hero-button.svg"
+                        className="h-16 lg:hidden mb-8"
+                    />
                     <p className="text-left w-full text-sm mb-2 lg:text-center opacity-50">
                         AVAILABLE AT
                     </p>
@@ -49,6 +53,10 @@ const Hero = () => (
                     </div>
                 </div>
             </div>
+        </div>
+        <div className="w-full flex flex-row justify-center gap-4 py-4 mt-12">
+            <img src="/badge.svg" />
+            <p className="text-white">NO RIGHTS RESERVED</p>
         </div>
     </div>
 )
