@@ -39,15 +39,24 @@ const Navbar = () => {
                         </a>
                     </div>
                     <div className="absolute bottom-8 left-8 flex flex-row gap-4 lg:top-4 lg:right-4 lg:left-auto lg:relative">
-                        <div className="rounded-full h-12 w-12 shadow-md shadow-black grid place-items-center">
+                        <a
+                            href="/"
+                            className="rounded-full h-12 w-12 shadow-md shadow-black grid place-items-center"
+                        >
                             <img src="/twitter.svg" className="w-4" />
-                        </div>
-                        <div className="rounded-full h-12 w-12 shadow-md shadow-black grid place-items-center">
+                        </a>
+                        <a
+                            href="/"
+                            className="rounded-full h-12 w-12 shadow-md shadow-black grid place-items-center"
+                        >
                             <img src="/discord.svg" className="w-4" />
-                        </div>
-                        <div className="rounded-full h-12 w-12 shadow-md shadow-black grid place-items-center">
+                        </a>
+                        <a
+                            href="/"
+                            className="rounded-full h-12 w-12 shadow-md shadow-black grid place-items-center"
+                        >
                             <img src="/linktree.svg" className="w-4" />
-                        </div>
+                        </a>
                     </div>
                     <div className="w-[80px] hidden lg:block invisible"></div>
                 </div>
