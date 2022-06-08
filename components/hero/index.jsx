@@ -4,15 +4,15 @@ const Hero = () => (
             <div className="mx-auto w-72 h-72 lg:h-96 lg:w-96 relative lg:mx-0">
                 <img
                     src="hero1.png"
-                    className="h-44 absolute top-0 left-0 lg:h-60 lg:left-0"
+                    className="h-44 absolute top-5 left-10 lg:h-60 lg:left-18 lg:top-0"
                 />
                 <img
                     src="hero2.png"
-                    className="h-44 absolute right-0 top-10 lg:h-60 lg:top-24 lg:right-0"
+                    className="h-44 absolute -left-2 bottom-0 lg:h-60 lg:bottom-4 lg:right-0"
                 />
                 <img
                     src="hero3.png"
-                    className="h-44 absolute bottom-0 left-5 lg:h-60"
+                    className="h-44 absolute bottom-0 -right-2 lg:h-60 lg:bottom-4"
                 />
             </div>
             <div className="contents lg:flex lg:flex-col lg:gap-6 lg:width-[700px]">
