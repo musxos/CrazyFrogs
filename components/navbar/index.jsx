@@ -32,7 +32,7 @@ const Navbar = () => {
                                 className="h-4 self-start lg:h-2 lg:my-auto cursor-pointer"
                             />
                         </Link>
-                        <Link href="/" className="lg:my-auto">
+                        <Link href="/mint" className="lg:my-auto">
                             <img
                                 src="/mint-nav.svg"
                                 className="h-4 self-start lg:hidden cursor-pointer"
