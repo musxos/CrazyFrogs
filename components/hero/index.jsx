@@ -1,6 +1,6 @@
 const Hero = () => (
-    <div className="w-auto mx-6 min-h-screen flex flex-col justify-center text-white lg:mx-[80px]">
-        <div className="flex flex-col gap-6 h-[37.5rem] mt-[75px] w-full align-middle lg:flex-row-reverse lg:align-middle lg:h-min lg:max-w-5xl lg:mx-auto lg:justify-between ">
+    <div className="w-auto mx-6 h-auto flex flex-col justify-center text-white lg:mx-[80px] my-auto">
+        <div className="flex flex-col gap-6 h-[37.5rem] mt-[75px] lg:mt-[100px] w-full align-middle lg:flex-row-reverse lg:align-middle lg:h-min lg:max-w-5xl lg:mx-auto lg:justify-between ">
             <div className="mx-auto w-64 h-60 lg:h-96 lg:w-96 relative lg:mx-0">
                 <img
                     src="hero1.png"
@@ -47,16 +47,16 @@ const Hero = () => (
                         </div>
                         <div className="rounded-full py-3 w-max text-center text-white text-md px-6 flex gap-4 lg:py-2 border-[1px] border-white">
                             <img src="/tofu.svg" className="text-black" />
-                            <p className="w-max my-auto">Tofu.nft</p>
+                            <p className="w-max my-auto">tofuNFT</p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div className="w-full flex flex-row justify-center gap-4 py-4 mt-12 lg:mt-0">
+        {/* <div className="w-full flex flex-row justify-center gap-4 py-4 mt-12 lg:mt-0">
             <img src="/badge.svg" />
             <p className="text-white">NO RIGHTS RESERVED</p>
-        </div>
+        </div> */}
     </div>
 )
 export default Hero

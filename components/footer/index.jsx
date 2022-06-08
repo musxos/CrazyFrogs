@@ -1,6 +1,6 @@
 
-const Footer = () => (
-    <div className="w-full flex flex-row justify-center gap-4 py-4 mt-12">
+const Footer = (props) => (
+    <div {...props}>
         <img src="/badge.svg" />
         <p className="text-white">NO RIGHTS RESERVED</p>
     </div>
