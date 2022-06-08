@@ -55,11 +55,11 @@ const RoadmapElement = () => (
             <h1 className="timeline-title"> PHASE 3</h1>
             <img src="/future-perks.svg" className="h-6 self-start" />
             <p className="text-xs leading-[16px] opacity-75">
-                P2E games and ultrahigh realistic NFTs - Grant holders of the rare
-                NFTs access to Upcoming Play-to-Earn NFTs also developed by LVME
-                studios including ultrahigh realistic NFT projects, built for
-                the Metaverse. With some of these projects being free to mint,
-                eligibility will be determined by how many cc0 NFTs a user
+                P2E games and ultrahigh realistic NFTs - Grant holders of the
+                rare NFTs access to Upcoming Play-to-Earn NFTs also developed by
+                LVME studios including ultrahigh realistic NFT projects, built
+                for the Metaverse. With some of these projects being free to
+                mint, eligibility will be determined by how many cc0 NFTs a user
                 holds. <br />
                 All-access card
                 <br /> Development of an all-access card for holders begins in
@@ -78,9 +78,12 @@ const RoadmapElement = () => (
         </div>
         <div className="flex flex-col gap-4 p-8 border-l-4 border-[#2AF6FF]">
             <h1 className="timeline-title"> PHASE 4</h1>
-            <img src="/tba.svg" className="h-6 self-start" />
+            <img src="/surprise.svg" className="h-6 self-start" />
             <p className="text-xs leading-[16px] opacity-75">
-                {"Lot's"} Of Surprises!
+                Other web 3 compatible NFT products are scheduled to deploy in
+                Q2 2023, e.g a carbon neutral cryptocurrency. All these perks
+                will made available to specifically to those who pre-owned any
+                LVME studios NFT, including Crazy frogs.
             </p>
         </div>
     </div>
