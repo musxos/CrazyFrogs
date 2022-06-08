@@ -1,18 +1,18 @@
 const Hero = () => (
     <div className="w-auto mx-6 h-auto flex flex-col justify-center text-white lg:mx-[80px] my-auto">
-        <div className="flex flex-col gap-6 h-[37.5rem] mt-[75px] lg:mt-[100px] w-full align-middle lg:flex-row-reverse lg:align-middle lg:h-min lg:max-w-5xl lg:mx-auto lg:justify-between ">
-            <div className="mx-auto w-64 h-60 lg:h-96 lg:w-96 relative lg:mx-0">
+        <div className="flex flex-col gap-6 min-h-[37.5rem] mt-[75px] lg:mt-[100px] w-full align-middle lg:flex-row-reverse lg:align-middle lg:min-h-0 lg:h-auto lg:max-w-5xl lg:mx-auto lg:justify-between">
+            <div className="mx-auto w-72 h-72 lg:h-96 lg:w-96 relative lg:mx-0">
                 <img
                     src="hero1.png"
-                    className="absolute top-0 left-16 lg:h-60 lg:left-32"
+                    className="h-44 absolute top-0 left-0 lg:h-60 lg:left-0"
                 />
                 <img
                     src="hero2.png"
-                    className="absolute right-2 top-10 lg:h-60 lg:top-24 lg:right-0"
+                    className="h-44 absolute right-0 top-10 lg:h-60 lg:top-24 lg:right-0"
                 />
                 <img
                     src="hero3.png"
-                    className="absolute bottom-0 left-5 lg:h-60"
+                    className="h-44 absolute bottom-0 left-5 lg:h-60"
                 />
             </div>
             <div className="contents lg:flex lg:flex-col lg:gap-6 lg:width-[700px]">
@@ -47,16 +47,12 @@ const Hero = () => (
                         </div>
                         <div className="rounded-full py-3 w-max text-center text-white text-md px-6 flex gap-4 lg:py-2 border-[1px] border-white">
                             <img src="/tofu.svg" className="text-black" />
-                            <p className="w-max my-auto">tofuNFT</p>
+                            <p className="w-max my-auto">tofu.NFT</p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        {/* <div className="w-full flex flex-row justify-center gap-4 py-4 mt-12 lg:mt-0">
-            <img src="/badge.svg" />
-            <p className="text-white">NO RIGHTS RESERVED</p>
-        </div> */}
     </div>
 )
 export default Hero

@@ -10,7 +10,7 @@ export default function Home() {
                 <Navbar />
                 <Hero />
                 <Rainbow className="h-72 absolute left-0 bottom-0 hidden lg:block" />
-                <Footer  className="w-full flex flex-row justify-center gap-4 py-4"/>
+                <Footer  className="w-full flex flex-row justify-center gap-4 py-4 mt-12 lg:mt-0"/>
             </div>
         </div>
     )
