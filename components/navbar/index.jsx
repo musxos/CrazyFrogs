@@ -20,7 +20,7 @@ const Navbar = () => {
                                 className="h-4 self-start lg:h-2 lg:my-auto cursor-pointer"
                             />
                         </Link>
-                        <Link href="/" className="lg:my-auto">
+                        <Link href="https://docs.crazyfrogs.io/license.pdf" className="lg:my-auto">
                             <img
                                 src="/license-nav.svg"
                                 className="h-4 self-start lg:h-2 lg:my-auto cursor-pointer"
@@ -47,7 +47,7 @@ const Navbar = () => {
                             <img src="/twitter.svg" className="w-4" />
                         </a>
                         <a
-                            href="https://discord.com"
+                            href="https://discord.gg/hKnbN7DGP8"
                             className="rounded-full h-12 w-12 shadow-md shadow-black grid place-items-center"
                         >
                             <img src="/discord.svg" className="w-4" />
