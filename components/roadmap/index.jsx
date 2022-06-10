@@ -76,16 +76,7 @@ const RoadmapElement = () => (
                 <br />
             </p>
         </div>
-        <div className="flex flex-col gap-4 p-8 border-l-4 border-[#2AF6FF]">
-            <h1 className="timeline-title"> PHASE 4</h1>
-            <img src="/surprise.svg" className="h-7 self-start" />
-            <p className="text-xs leading-[16px] opacity-75">
-                Other web 3 compatible NFT products are scheduled to deploy in
-                Q2 2023, e.g a carbon neutral cryptocurrency. All these perks
-                will made available to specifically to those who pre-owned any
-                LVME studios NFT, including Crazy frogs.
-            </p>
-        </div>
+        
     </div>
 )
 export default RoadmapElement
