@@ -76,7 +76,11 @@ const RoadmapElement = () => (
                 <br />
             </p>
         </div>
-        
+        <div className="flex flex-col gap-4 p-8 border-l-4 border-[#2AF6FF]">
+            <h1 className="timeline-title"> PHASE 4</h1>
+            <img src="/surprise.svg" className="h-7 self-start" />
+            
+        </div>
     </div>
 )
 export default RoadmapElement
