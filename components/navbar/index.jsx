@@ -62,6 +62,16 @@ const Navbar = () => {
                     <div className="w-[80px] hidden lg:block invisible"></div>
                 </div>
             </div>
+            <!-- Global site tag (gtag.js) - Google Analytics -->
+            <script async src="https://www.googletagmanager.com/gtag/js?id=UA-231713937-1">
+            </script>
+            <script>
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+
+              gtag('config', 'UA-231713937-1');
+            </script>
             <div
                 className="z-20 rounded-full fixed top-2 right-2  h-12 w-12 shadow-md shadow-black lg:hidden grid place-items-center navButton bg-bg"
                 onClick={() => setVisible(!visible)}
