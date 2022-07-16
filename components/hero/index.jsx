@@ -29,10 +29,7 @@ const Hero = () => (
                     frog could be the gateway to a whole new world!
                 </p>
                 <div className="w-auto mx-auto lg:mx-0 lg:w-auto ">
-                    <img
-                        src="/hero-button.svg"
-                        className="h-16 lg:hidden mb-8"
-                    />
+                   
                     <p className="text-left w-full text-sm mb-2 lg:text-center opacity-50">
                         AVAILABLE AT
                     </p>
