@@ -53,7 +53,7 @@ const Navbar = () => {
                             <img src="/discord.svg" className="w-4" />
                         </a>
                         <a
-                            href="https://linktr.ee/crazyfrogs"
+                            href="https://linktr.ee/crazyfrogsnft"
                             className="rounded-full h-12 w-12 shadow-md shadow-black grid place-items-center"
                         >
                             <img src="/linktree.svg" className="w-4" />
