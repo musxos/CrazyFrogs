@@ -38,10 +38,12 @@ const Hero = () => (
                             src="/hero-button-large.svg"
                             className="h-12 lg:block hidden z-10"
                         />
+                        <a href="google.com" target="_blank">
                         <div className="rounded-full py-3 w-max text-center text-white text-md px-6 flex gap-4 lg:py-2 border-[1px] border-white">
                             <img src="/opensea.svg" className="text-black" />
                             <p className="w-max my-auto">Opensea</p>
                         </div>
+                        </a>
                         <div className="rounded-full py-3 w-max text-center text-white text-md px-6 flex gap-4 lg:py-2 border-[1px] border-white">
                             <img src="/tofu.svg" className="text-black" />
                             <p className="w-max my-auto">tofu.NFT</p>
