@@ -20,24 +20,14 @@ const Navbar = () => {
                                 className="h-4 self-start lg:h-2 lg:my-auto cursor-pointer"
                             />
                         </Link>
-                        <Link href="https://docs.crazyfrogs.io/license.pdf" className="lg:my-auto">
-                            <img
-                                src="/license-nav.svg"
-                                className="h-4 self-start lg:h-2 lg:my-auto cursor-pointer"
-                            />
-                        </Link>
+               
                         <Link href="/roadmap" className="lg:my-auto">
                             <img
                                 src="/roadmap-nav.svg"
                                 className="h-4 self-start lg:h-2 lg:my-auto cursor-pointer"
                             />
                         </Link>
-                        <Link href="/mint" className="lg:my-auto">
-                            <img
-                                src="/mint-nav.svg"
-                                className="h-4 self-start lg:hidden cursor-pointer"
-                            />
-                        </Link>
+                 
                     </div>
                     <div className="absolute bottom-8 left-8 flex flex-row gap-4 lg:top-4 lg:right-4 lg:left-auto lg:relative">
                         <a
@@ -47,13 +37,13 @@ const Navbar = () => {
                             <img src="/twitter.svg" className="w-4" />
                         </a>
                         <a
-                            href="https://discord.gg/hKnbN7DGP8"
+                            href="https://t.me/crazyfrogssol"
                             className="rounded-full h-12 w-12 shadow-md shadow-black grid place-items-center"
                         >
-                            <img src="/discord.svg" className="w-4" />
+                            <img src="/telegram.svg" className="w-4" />
                         </a>
                         <a
-                            href="https://linktr.ee/crazyfrogsnft"
+                            href="https://linktr.ee/crazyfrogssol"
                             className="rounded-full h-12 w-12 shadow-md shadow-black grid place-items-center"
                         >
                             <img src="/linktree.svg" className="w-4" />
