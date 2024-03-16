@@ -30,24 +30,8 @@ const Hero = () => (
                 </p>
                 <div className="w-auto mx-auto lg:mx-0 lg:w-auto ">
                    
-                    <p className="text-left w-full text-sm mb-2 lg:text-center opacity-50">
-                        AVAILABLE AT
-                    </p>
-                    <div className="w-full flex justify-start gap-4 lg:gap-4">
-                       
-                        <a href="https://opensea.io/collection/crazyfrogsnfts" target="_blank" rel="noreferrer" >
-                        <div className="rounded-full py-3 w-max text-center text-white text-md px-6 flex gap-4 lg:py-2 border-[1px] border-white">
-                            <img src="/opensea.svg" className="text-black" />
-                            <p className="w-max my-auto">Opensea</p>
-                        </div>
-                        </a>
-                        <a href="https://tofunft.com/collection/crazy-frogs-polygon/items" target="_blank" rel="noreferrer" >
-                        <div className="rounded-full py-3 w-max text-center text-white text-md px-6 flex gap-4 lg:py-2 border-[1px] border-white">
-                            <img src="/tofu.svg" className="text-black" />
-                            <p className="w-max my-auto">tofu.NFT</p>
-                        </div>
-                    </a>
-                    </div>
+                  
+                    
                 </div>
             </div>
         </div>
