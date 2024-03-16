@@ -22,11 +22,7 @@ const Hero = () => (
                     className="hidden h-24 lg:block self-start"
                 />
                 <p className="max-w-[24rem] text-center mx-auto text-xs lg:text-left lg:max-w-[28rem] lg:mx-0 opacity-75 lg:leading-[34px] leading-5">
-                    A group of 10000 omnipresent frogs, living and thriving on
-                    the different networks of the Blockchain. Waiting to be
-                    possessed by one as crazy as them; someone crazy enough to
-                    believe, like the princess who kissed the frog, that one
-                    frog could be the gateway to a whole new world!
+                    $CRZY IS A MEMECOIN AND HAS NO UTILITY. DON'T RISK MONEY YOU ARE AFRAID OF LOSING. THE PRICE MAY GO UP OR IT MAY GO DOWN. WE ARE NOT RESPONSIBLE FOR THE PRICE OF THE TOKEN.
                 </p>
                 <div className="w-auto mx-auto lg:mx-0 lg:w-auto ">
                    
