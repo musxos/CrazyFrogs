@@ -36,12 +36,7 @@ const Navbar = () => {
                         >
                             <img src="/twitter.svg" className="w-4" />
                         </a>
-                        <a
-                            href="https://t.me/crazyfrogssol"
-                            className="rounded-full h-12 w-12 shadow-md shadow-black grid place-items-center"
-                        >
-                            <img src="/telegram.svg" className="w-4" />
-                        </a>
+                    
                         <a
                             href="https://linktr.ee/crazyfrogssol"
                             className="rounded-full h-12 w-12 shadow-md shadow-black grid place-items-center"
