@@ -22,7 +22,18 @@ const Hero = () => (
                     className="hidden h-24 lg:block self-start"
                 />
                 <p className="max-w-[24rem] text-center mx-auto text-xs lg:text-left lg:max-w-[28rem] lg:mx-0 opacity-75 lg:leading-[34px] leading-5">
-                    $CRZY IS A MEMECOIN AND HAS NO UTILITY. DON'T RISK MONEY YOU ARE AFRAID OF LOSING. THE PRICE MAY GO UP OR IT MAY GO DOWN. WE ARE NOT RESPONSIBLE FOR THE PRICE OF THE TOKEN.
+                   A Leap Beyond the Ordinary—The Crazy Dream 
+
+                    Why $CRZY? 
+                    We’re here to shake the swamp with laughter and profits. 
+                    
+                    $CRZY Mission
+                    Token Supply: 42.690B 
+                    
+                    JOIN THE FROGGY FIESTA 
+                    Connect with fellow froggies on our social platforms, where the memes jump faster, than you can say “KEK”. We are just about to LEAP! 
+                    
+                    🐸 To the swamp! $CRZY—where the party goes crazy and fun! 
                 </p>
                 <div className="w-auto mx-auto lg:mx-0 lg:w-auto ">
                    
