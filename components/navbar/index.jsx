@@ -21,12 +21,7 @@ const Navbar = () => {
                             />
                         </Link>
                
-                        <Link href="/roadmap" className="lg:my-auto">
-                            <img
-                                src="/roadmap-nav.svg"
-                                className="h-4 self-start lg:h-2 lg:my-auto cursor-pointer"
-                            />
-                        </Link>
+                 
                  
                     </div>
                     <div className="absolute bottom-8 left-8 flex flex-row gap-4 lg:top-4 lg:right-4 lg:left-auto lg:relative">
